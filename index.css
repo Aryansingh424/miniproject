@@ -24,6 +24,7 @@ li{
     display: flex;
     justify-content: space-between; 
     height: 70px;
+    z-index: 100;
 }
 ul{
     display: flex;
@@ -113,8 +114,8 @@ width: 850px;
 
 .small{
     max-width: 1300px;
-    margin-left: 150px;
-    margin-right: 150px; 
+    margin-left: 120px;
+    margin-right: 120px; 
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -128,19 +129,65 @@ width: 850px;
     overflow: hidden;
     flex-basis: 30%;
     padding: 3rem;
-    border: 2px solid black;
+    border: 1px solid rgb(222, 216, 216);
+    margin-top: 40px ;
+    min-width: 350px;
+    transition: transform 0.5s;
 }
-
+/* our projects(Blue part) */
 .categories{
-    margin-top: 50px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
-.col-3,h1,h2,p{
+.col-3 h1,h2,p{
     font-family: sans-serif;
+    margin-bottom: 25px;
 }
 .small h1,h5{
-    margin: 25px;
     font-family: sans-serif;
 }
 #Solutions{
     color: green;
+}
+.small h1{
+    font-size: 3rem;
+}
+.small h5{
+    font-size: 1rem;
+}
+.col-3 h1{
+    color: rgb(167, 163, 163);
+}
+.multi{
+    margin: 25px;
+}
+#details{
+    color: green;
+}
+.col-3:hover{
+    border: 1px solid rgb(3, 50, 3);
+    transform: translateY(-15px);
+}
+.col-2a{
+    margin: 20px;
+    object-fit:fill
+}
+.categories-a{
+    background-color: rgb(9, 31, 67);
+    padding-top: 80px;
+}
+.multi-a{
+    color: white;
+    margin: 25px;
+    font-weight: 600;
+}
+#what{
+    font-weight: 500;
+}
+.col-2a img{
+    width: 36rem;
+    transition: transform 0.3s;
+}
+.col-2a img:hover{
+    transform: scale(1.09);
 }

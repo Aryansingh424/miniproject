@@ -41,13 +41,13 @@ font-size: 20px;
 }
 .navbar{
     background-color: rgb(13, 42, 91);
+    position: fixed;
 }
 .header{
     background-color: rgb(32, 64, 119);
 }
 .building{
-width: 107%;
-    
+width: 850px;
 }
 .header{
     display: flex;
@@ -63,6 +63,7 @@ width: 107%;
 }
 .col-2{
     flex-basis: 50%;
+    overflow: hidden;
 }
 #para{
     font-size: 4rem;
@@ -107,4 +108,39 @@ width: 107%;
 }
 #dreams{
     color: yellow;
+}
+
+
+.small{
+    max-width: 1300px;
+    margin-left: 150px;
+    margin-right: 150px; 
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+     display: flex;
+     align-items: center; 
+     flex-wrap: wrap;
+     justify-content: space-around ;
+}
+.col-3{
+    overflow: hidden;
+    flex-basis: 30%;
+    padding: 3rem;
+    border: 2px solid black;
+}
+
+.categories{
+    margin-top: 50px;
+}
+.col-3,h1,h2,p{
+    font-family: sans-serif;
+}
+.small h1,h5{
+    margin: 25px;
+    font-family: sans-serif;
+}
+#Solutions{
+    color: green;
 }

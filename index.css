@@ -2,6 +2,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ max-width: 1650px;
 }
 #textlogo{
     color: white;
@@ -133,6 +134,9 @@ width: 850px;
     margin-top: 40px ;
     min-width: 350px;
     transition: transform 0.5s;
+    background-color: #d9d9d9;
+    box-shadow: 10px 10px 5px #d9d9d9;
+
 }
 /* our projects(Blue part) */
 .categories{
@@ -167,6 +171,7 @@ width: 850px;
 .col-3:hover{
     border: 1px solid rgb(3, 50, 3);
     transform: translateY(-15px);
+    background-color: #fcfbfb;
 }
 .col-2a{
     margin: 20px;
@@ -185,7 +190,7 @@ width: 850px;
     font-weight: 500;
 }
 .col-2a img{
-    width: 36rem;
+    width: 30rem;
     transition: transform 0.3s;
 }
 .col-2a img:hover{

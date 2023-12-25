@@ -27,7 +27,7 @@ li{
     height: 70px;
     z-index: 100;
 }
-ul{
+#navlist{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -197,4 +197,89 @@ width: 850px;
 }
 .col-2a img:hover{
     transform: scale(1.09);
+}
+
+/* Footer */
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+}
+.footsmall{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footrow{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    width: 1300px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.col-4a{
+    flex-basis: 25%;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+#footlogo,#sub{
+    color: white;
+    margin-top: 14px;
+    font-weight: 400;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.col-4 h3{
+    font-size: 1.7rem;
+    margin-top: 14px;
+}
+.bullets{
+    padding: 5px;
+}
+.footli{
+    padding: 7px;
+}
+.bullets:hover{
+    color: yellow;
+}
+.footli a:hover{
+    color: yellow;
+}
+.contact{
+    display: flex; 
+    gap: 10px;
+}
+.phoneno,.address{
+    min-width: 140px;
+}
+.phoneicon,.locicon{
+    min-width: 30px;
+}
+.footlist li{
+    font-size: 1.25rem;
 }

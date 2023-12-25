@@ -283,3 +283,16 @@ width: 850px;
 .footlist li{
     font-size: 1.25rem;
 }
+
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.project-row{
+    gap: 50px;
+}
+.col-2b{
+    flex-basis: 48%;
+}

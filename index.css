@@ -44,6 +44,7 @@ font-size: 20px;
 .navbar{
     background-color: rgb(13, 42, 91);
     position: fixed;
+    border-radius: 15px;
 }
 .header{
     background-color: rgb(32, 64, 119);
@@ -125,6 +126,7 @@ width: 850px;
      align-items: center; 
      flex-wrap: wrap;
      justify-content: space-around ;
+     width: 100%;
 }
 .col-3{
     overflow: hidden;
@@ -140,6 +142,10 @@ width: 850px;
 }
 /* our projects(Blue part) */
 .categories{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
     margin-top: 90px;
     margin-bottom: 90px;
 }
@@ -176,10 +182,6 @@ width: 850px;
 .col-2a{
     margin: 20px;
     object-fit:fill
-}
-.categories-a{
-    background-color: rgb(9, 31, 67);
-    padding-top: 80px;
 }
 .multi-a{
     color: white;

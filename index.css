@@ -249,10 +249,7 @@ width: 850px;
     color: white;
     margin-top: 14px;
     font-weight: 400;
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Outfit', sans-serif;
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-family: 'Teko', sans-serif;
+    
 }
 .col-4 h3{
     font-size: 1.7rem;
@@ -262,7 +259,7 @@ width: 850px;
     padding: 5px;
 }
 .footli{
-    padding: 7px;
+    padding: 3px;
 }
 .bullets:hover{
     color: yellow;
